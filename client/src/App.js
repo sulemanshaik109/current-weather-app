@@ -15,7 +15,7 @@ const App = () => {
     const fetchWeather = async (city) => {
       setLoading(true);
         try {
-            const response = await axios.get(`https://current-weather-app-wm6s.onrender.com?city=${city}`);
+            const response = await axios.get(`http://localhost:5000/api/weather?city=${city}`);
             setWeatherData(response.data);
             setLoading(false);
             setError("");

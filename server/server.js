@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.json());
 
 const corsOptions = {
-    origin: ['https://suleman-current-weather-app.netlify.app'],
+    origin: ['https://suleman-current-weather-app.netlify.app/'],
     optionsSuccessStatus: 200
   };
 
