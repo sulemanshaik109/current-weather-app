@@ -32,7 +32,7 @@ This is a simple weather service application that fetches and displays weather i
 - Clone the repository:
 
   ```
-  git clone https://github.com/sulemanshaik109/weather-app.git
+  git clone https://github.com/sulemanshaik109/current-weather-app.git
   ```
 
 ### Backend
