@@ -1,0 +1,174 @@
+.book-details-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-img {
+  width: 235px;
+  height: 274px;
+  border-radius: 12px;
+}
+
+.book-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.book-author {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.text1 {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+  margin-right: 10px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.book-rating {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #334155;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.book-status {
+  color: #0284c7;
+  margin-right: 0px;
+  margin-left: 5px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.horizontal-line {
+  border: 0.2px solid #94a3b8;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.about-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #475569;
+  margin: 0px;
+}
+
+.book-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .book-details-container {
+    padding: 64px 150px;
+  }
+  .content-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 1px 2px 0px #60617029;
+    box-shadow: 0px 0px 1px 0px #28293d14;
+    padding: 64px;
+  }
+  .details-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .book-information {
+    padding-left: 48px;
+    align-items: flex-start;
+  }
+  .book-title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .book-author {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .text1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .book-rating {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .book-status {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .horizontal-line {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .sub-heading {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  .about-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+}
