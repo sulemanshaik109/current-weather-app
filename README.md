@@ -1,6 +1,5 @@
-<h1 align="center">
-Weather App
-</h1>
+# Weather App
+
 This is a simple weather service application that fetches and displays weather information based on user input. It uses a Node.js backend with Express to interact with the Weatherstack API and a React frontend to provide a user interface.
 
 - Location
@@ -191,7 +190,7 @@ To use the Weather App:
     - Use the URL provided by Render for the backend. For example:
 
         ```
-        https://suleman-weather-app.onrender.com/api/notes
+        https://current-weather-app-wm6s.onrender.com/api/weather?city=London
         ```
 
 3. Send Request:
